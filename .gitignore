@@ -1,0 +1,4 @@
+# C extensions
+*.SO
+*.csv
+.DS_Store

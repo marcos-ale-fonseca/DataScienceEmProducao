@@ -6,3 +6,4 @@
 *.pdf
 *.pkl
 *.db
+.jupyter_ystore.db

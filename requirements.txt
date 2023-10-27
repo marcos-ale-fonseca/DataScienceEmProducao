@@ -1,4 +1,5 @@
 Boruta==0.3
+<<<<<<< HEAD
 Flask==2.2.4
 inflection==0.5.1
 matplotlib==3.7.1

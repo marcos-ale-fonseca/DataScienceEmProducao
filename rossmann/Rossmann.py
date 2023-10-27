@@ -8,7 +8,7 @@ import datetime
 class Rossmann( object ):
     
     def __init__(self):
-        self.path_home = ''
+        self.path_home = 'parameter/'
         with open(self.path_home + 'm05_rescaling_competition_distance.pkl', 'rb') as file:
             self.competition_distance_scaler = pickle.load(file)
         with open(self.path_home + 'm05_rescaling_competition_time_month.pkl', 'rb') as file:

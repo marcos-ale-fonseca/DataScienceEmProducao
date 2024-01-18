@@ -1,7 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import os
->>>>>>> rossmann_render_webapp
 import json
 import requests
 import pandas as pd
@@ -20,11 +20,9 @@ TOKEN = '6869086822:AAEnR8Rl9yIiT-MUVwCkOstK_KpkEvck9fo'
 # 'https://api.telegram.org/bot6869086822:AAEnR8Rl9yIiT-MUVwCkOstK_KpkEvck9fo/sendMessage?chat_id=1090663968&text=Hi Ale, I am doing good, tks!'
 
 # set webhook
-<<<<<<< HEAD
 # 'https://api.telegram.org/bot6869086822:AAEnR8Rl9yIiT-MUVwCkOstK_KpkEvck9fo/setWebhook?url=https://4ee82aed6bac71.lhr.life'
-=======
 # 'https://api.telegram.org/bot6869086822:AAEnR8Rl9yIiT-MUVwCkOstK_KpkEvck9fo/setWebhook?url=https://rossmann-telegram-bot-a4ma.onrender.com/'
->>>>>>> rossmann_render_webapp
+# 'https://api.telegram.org/bot6869086822:AAEnR8Rl9yIiT-MUVwCkOstK_KpkEvck9fo/setWebhook?url=https://4ee82aed6bac71.lhr.life'
 
 def send_message(chat_id, text):
     url = 'https://api.telegram.org/bot{}/'.format(TOKEN) 
